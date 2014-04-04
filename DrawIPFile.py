@@ -30,7 +30,7 @@ def DrawIPFile(inputfile):
             res = list(set(v))
             att_content=[]
             usedRandomList=[]
-            color_list=['navyblue','olivedrab2','orange2','orangered2','orchid2','palegreen1','paleturquoise1','palevioletred1'] 
+            color_list=['olivedrab2','orange2','orangered2','orchid2','palegreen1','paleturquoise1','palevioletred1'] 
             i=0
             for alert in res:
                 temp_alert=alert.decode('string_escape').strip("\"").strip("[").strip("]").strip()
