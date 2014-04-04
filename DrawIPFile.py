@@ -43,7 +43,7 @@ def DrawIPFile(inputfile):
                 label_value="label="+"\""+sip+"\""+";"
 
                 
-                random_color=color_list[(i%8)]
+                random_color=color_list[(i%7)]
                 i=i+1
                 subgraph_color="color="+random_color+";"
                         
